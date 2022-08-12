@@ -23,7 +23,7 @@ h1 {
 }
 
 .card {
-    width: 350px;
+    max-width: 350px;
     margin: 50px auto;
     padding: 20px;
     background-color: var(--white);
