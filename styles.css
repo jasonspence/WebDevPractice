@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --pale-blue: hsl(172, 100%, 80%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--pale-blue);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.menu {
+    width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 30px;
+    box-shadow: 10px 20px 30px -8px var(--grayish-blue);
+    color: var(--grayish-blue);
+    font-size: 14px;
+    text-align: center;
+}
+
+.card {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--dark-blue);
+    border-radius: 30px;
+    box-shadow: 10px 20px 30px -8px var(--grayish-blue);
+    color: var(--pale-blue);
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+
+.link-spanner {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.label {
+    padding: 20px 30px 0 30px;
+}
+
+.proj-pic {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.proj-title {
+    color: var(--light-gray);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
