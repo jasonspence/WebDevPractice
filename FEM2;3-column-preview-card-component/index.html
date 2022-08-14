@@ -10,29 +10,45 @@
 
   <title>3-column preview card component</title>
 
+  <link rel="stylesheet" href="styles.css" />
+
 </head>
 
 <body>
 
-  <main class="panel" role="main">
+  <div class="vflex">
+    <main class="panel" role="main">
 
-    <p>
-    Sedans
-    Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
-    or on your next road trip.
-    </p>
-    <p>
-    SUVs
-    Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
-    and off-road adventures.
-    </p>
-    <p>
-    Luxury
-    Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-    rental and arrive in style.
-    </p>
+      <div class="card" id="sedans">
+        <img class="card-graphic" src="images/icon-sedans.svg" alt="Sedan graphic" />
+        <h1>Sedans</h1>
+        <p>
+          Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+          or on your next road trip.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="card" id="suvs">
+        <img class="card-graphic" src="images/icon-suvs.svg" alt="SUV graphic" />
+        <h1>SUVs</h1>
+        <p>
+          Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+          and off-road adventures.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="card" id="luxury">
+        <img class="card-graphic" src="images/icon-luxury.svg" alt="Luxury graphic" />
+        <h1>Luxury</h1>
+        <p>
+          Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+          rental and arrive in style.
+        </p>
+        <button>Learn More</button>
+      </div>
 
-  </main>
+    </main>
+  </div>
 
   <footer class="attribution" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
